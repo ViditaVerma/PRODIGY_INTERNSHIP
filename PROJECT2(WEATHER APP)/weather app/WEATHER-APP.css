@@ -1,0 +1,52 @@
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: linear-gradient(135deg, #a18cd1, #fbc2eb);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image:url(cloud\ pic.avif); /* Your image file name */
+  background-size: cover;
+}
+
+
+.weather-card {
+  background: #ffffffdd;
+  border-radius: 20px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.weather-card input {
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.weather-card button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.weather-card button:hover {
+  background: #483d8b;
+}
+
+.weather-info {
+  margin-top: 20px;
+}
+
+.weather-info h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
