@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ArtNest - Buy & Sell Original Paintings</title>
+  <link rel="stylesheet" href="landpage.css" />
+</head>
+<body>
+  <header id="navbar">
+    <div class="logo">🎨 ArtVibe</div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#buy">Buy</a></li>
+        <li><a href="#sell">Sell</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Bring <span>Art</span> to Life</h1>
+    <p1>Buy & Sell authentic artwork created by real artists worldwide.</p1>
+    <div class="hero-buttons">
+      <a href="#buy" class="btn">Buy Art</a>
+      <a href="#sell" class="btn secondary">Sell Art</a>
+    </div>
+  </section>
+
+<section class="horizontal-gallery" id="gallery">
+  <h2>Featured Painting</h2>
+  <div class="scroll-wrapper">
+    <img src="art1.jpg" alt="Art 1">
+    <img src="art2.jpg" alt="Art 2">
+    <img src="art3.jpg" alt="Art 3">
+    <img src="art4.jpg" alt="Art 4">
+    <img src="art11.webp" alt="Art 11">
+    <img src="art12.jpg" alt="Art 12">
+    <img src="art13.jpg" alt="Art 13">
+    <!-- Add more if you want -->
+  </div>
+</section>
+
+
+
+<!-- BUY SECTION -->
+<section class="gallery" id="buy">
+  <h2>Buy Original Art</h2>
+  <div class="shop-grid">
+    <div class="art-card">
+      <img src="art5.jpg" alt="Art5">
+      <p class="title">Whispers of the Alpine Breeze</p>
+      <p class="price">₹2,499</p>
+    </div>
+    <div class="art-card">
+      <img src="art6.jpeg" alt="Art6">
+      <p class="title">Innocence in Bloom</p>
+      <p class="price">₹1,799</p>
+    </div>
+    <div class="art-card">
+      <img src="art8.jpg" alt="Art8">
+      <p class="title">Silent Expression</p>
+      <p class="price">₹3,250</p>
+    </div>
+    <div class="art-card">
+      <img src="art9.jpg" alt="art9">
+      <p class="title">The Rhythm Within</p>
+      <p class="price">₹3,250</p>
+    </div>
+  </div>
+</section>
+<!-- art auction  -->
+<section class="art-auction">
+  <h2>ArtVibe Auctions</h2>
+  <p class="subtitle">Bid on paintings, prints, photographs and more by the world’s most sought-after artists.</p>
+
+  <div class="auction-grid">
+    <!-- Artwork 1 -->
+    <div class="auction-item">
+      <img src="art14.jpg" alt="Julian Schnabel Artwork">
+      <h3>Elemental Muse </h3>
+      <p class="date">Bid until AUGUST 12</p>
+      <p class="artist"><strong>Julian Schnabel</strong></p>
+    </div>
+
+    <!-- Artwork 2 -->
+    <div class="auction-item">
+      <img src="art11.webp" alt="El Anatsui Artwork">
+      <h3>Fractured Foundations</h3>
+      <p class="date">Bid on AUGUST 26</p>
+      <p class="artist"><strong>El Anatsui</strong></p>
+    </div>
+  </div>
+</section>
+
+
+<!-- SELL SECTION -->
+<section class="info alt" id="sell">
+  <h2>Sell Your Artwork</h2>
+  <p>🎨 Join ArtVibe and turn your passion into a profession! Upload and showcase your artwork to global buyers.</p>
+  <div class="upload-box">
+    <p>Want to showcase your work?</p>
+    <button class="btn">Upload Your Painting</button>
+  </div>
+</section>
+
+
+<!-- testimonial  -->
+<section class="testimonials">
+    <h2>What Our Users Say</h2>
+    <div class="testimonial-cards">
+        <div class="card"><strong>Ravi S.</strong><p>"Amazing artwork and fast delivery. Love the creativity here!"</p></div>
+        <div class="card"><strong>Priya K.</strong><p>"ArtVibe helped me sell my first painting! Beautiful platform."</p></div>
+        <div class="card"><strong>sumita S.</strong><p>"Selling my first painting on ArtNest felt like a dream! The platform is smooth and artist-friendly."</p></div>
+        <div class="card"><strong>kunal A.</strong><p>""I bought a gorgeous watercolor piece for my living room. The quality and delivery were amazing."</p></div>
+    </div>
+</section>
+
+<!-- CONTACT SECTION -->
+<section class="contact" id="contact">
+  <h2>Connect With Us</h2>
+  <p>Have questions or feedback? We'd love to hear from you.</p>
+  <button class="btn" onclick="openForm()">Send Message</button>
+</section>
+<!-- POPUP FORM -->
+<div class="popup-form" id="messageForm">
+  <div class="form-content">
+    <span class="close" onclick="closeForm()">×</span>
+    <h3>Send Us a Message</h3>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Submit</button>
+    </form>
+  </div>
+</div>
+
+  <footer>
+    <p1>&copy; 2025 ArtNest | Designed with ❤️</p1>
+  </footer>
+
+  <script src="land.js"></script>
+</body>
+</html>
